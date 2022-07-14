@@ -14,6 +14,7 @@ bool S3 = b > a;
 if (S1)
 {
     Console.WriteLine($"max = {a}");
+    Console.WriteLine($"min = {b}");
 }
 else if (S2)
 {
@@ -22,4 +23,5 @@ else if (S2)
 if (S3)
 {
     Console.WriteLine($"max = {b}");
+    Console.WriteLine($"min = {a}");
 }
